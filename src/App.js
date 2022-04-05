@@ -8,7 +8,11 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Annie Do</footer>
+        <footer className="text-center">
+          <a href="https://github.com/annie-2686/annie-project">
+            Coded by Annie Do
+          </a>
+        </footer>
       </div>
     </div>
   );
