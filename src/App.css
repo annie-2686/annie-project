@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+  padding-top: 30px;
+  background: #e7eaf6;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #113f67;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 10px;
+  color: #113f67;
+  text-decoration: none;
+}
