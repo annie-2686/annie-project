@@ -1,17 +1,29 @@
+body {
+  background: #daebee;
+}
+
 .container {
-  text-align: center;
   padding-top: 30px;
-  background: #e7eaf6;
+
+  max-width: 800px;
 }
 
 h1 {
   margin-bottom: 40px;
-  color: #113f67;
+  color: #ff5126;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
 }
 
-footer {
-  margin-top: 40px;
+a {
+  margin-top: 90px;
   font-size: 10px;
-  color: #113f67;
+  color: #ff5126;
+  text-align: center;
   text-decoration: none;
+}
+
+.App a :hover {
+  color: #fcedda;
 }

@@ -10,6 +10,7 @@ function App() {
           <Dictionary />
         </main>
         <footer>
+          {" "}
           <a href="https://github.com/annie-2686/annie-project">
             Coded by Annie Do
           </a>
