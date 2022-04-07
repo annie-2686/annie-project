@@ -32,9 +32,8 @@ export default function Dictionary() {
         </form>
         <div className="example">For example: sunset, happy, hello</div>
       </section>
-      <section>
-        <Results results={results} />
-      </section>
+
+      <Results results={results} />
     </div>
   );
 }
