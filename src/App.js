@@ -11,8 +11,13 @@ function App() {
         </main>
         <footer>
           {" "}
+          This project was coded by Annie and is{" "}
           <a href="https://github.com/annie-2686/annie-project">
-            Coded by Annie Do
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a href="https://papaya-starlight-a5c103.netlify.app">
+            hosted on Netlify
           </a>
         </footer>
       </div>

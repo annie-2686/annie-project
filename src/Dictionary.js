@@ -7,7 +7,6 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
 
@@ -31,6 +30,7 @@ export default function Dictionary() {
             onChange={handleKeywordChange}
           />
         </form>
+        <div className="example">For example: sunset, happy, hello</div>
       </section>
       <section>
         <Results results={results} />
